@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-rgb: 237, 244, 248;
+  --primary-rgb: 17, 15, 82;
+  --secondary-rgb: 38, 168, 223;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-rgb: 237, 244, 248;
+    --primary-rgb: 17, 15, 82;
+    --secondary-rgb: 38, 168, 223;
+  }
+}
+
+body {
+  color: rgb(var(--text-rgb));
+  background-color: rgb(var(--primary-rgb));
+  font-size: 16px;
+}
