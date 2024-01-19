@@ -1,6 +1,7 @@
 import localFont from '@next/font/local';
 import Header from "@/src/components/layout/Header"
 import Footer from "@/src/components/layout/Footer"
+import { LenisScroller } from "@/src/components/ui/lenis-scroller";
 import './globals.css'
 
 const amphora = localFont({
@@ -32,9 +33,10 @@ export default function RootLayout({ children }) {
       <body className="h-full font-switzer">
         <div className="relative flex min-h-screen flex-col">
             <Header />
-            <div className="w-full px-20">{children}</div>
+            <div className="flex-1">{children}</div>
             <Footer />
-          </div>
+        </div>
+        <LenisScroller />
       </body>
     </html>
   )

@@ -55,7 +55,7 @@ const Header = () => {
           Projects
         </Link>
         <Link
-          href="/contact"
+          href="mailto:t.corbieres@gmail.com"
           className="before:inline-block before:w-2 before:h-2 before:mr-3
             before:bg-transparent before:rounded-full before:border before:hover:bg-white mt-1 flex items-center px-2 py-1 md:mt-0 md:ml-10"
         >
