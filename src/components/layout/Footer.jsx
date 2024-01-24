@@ -1,3 +1,5 @@
+'use client' 
+import { useFooterHover } from "../../../app/providers/mouseContext";
 import localFont from "@next/font/local";
 
 const amphora = localFont({
@@ -10,9 +12,13 @@ const amphora = localFont({
 });
 
 const Footer = () => {
+  const { setHoveringFooter } = useFooterHover();
+
   return (
     <footer
       className={`${amphora.variable} font-amphora bg-secondary md:min-h-[567px] w-full px-6 md:px-20`}
+      onMouseEnter={() => setHoveringFooter(true)}
+      onMouseLeave={() => setHoveringFooter(false)}
     >
       <div className="flex items-center pt-16 pb-14 md:pt-36 md:pb-32 border-b border-primary">
         <a
