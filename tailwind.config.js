@@ -11,12 +11,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        amphora: ['var(--font-amphora)', 'sans-serif'],
-        switzer: ['var(--font-switzer)', 'sans-serif'],
+        switzer: ["Switzer", "sans-serif"],
+        amphora: ["Amphora", "sans-serif"]
       },
       colors: {
         'primary': '#110F52',
         'secondary': '#26A8DF',
+      },
+      fontSize: {
+        'h1' : ['7.5rem', '10rem'],
+        'h2' : ['2.25rem', '3.375rem'],
       }
     },
   },

@@ -1,28 +1,7 @@
 "use client";
-
-import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import localFont from "@next/font/local";
 import { projectsData } from "../../data/projects";
-
-const amphora = localFont({
-  src: [
-    {
-      path: "../../../public/fonts/Amphora-Regular.otf",
-    },
-  ],
-  variable: "--font-amphora",
-});
-
-const switzer = localFont({
-  src: [
-    {
-      path: "../../../public/fonts/Switzer-Variable.ttf",
-    },
-  ],
-  variable: "--font-switzer",
-});
 
 const Projects = () => {
   // Logique pour gérer le mouvement de la souris et la mise à jour du style
@@ -49,12 +28,8 @@ const Projects = () => {
   };
 
   return (
-    <section className="projects py-32">
-      <h2
-        className={`${amphora.variable} font-amphora text-4xl pb-16 px-6 md:px-20`}
-      >
-        Projects
-      </h2>
+    <section className="projects py-20 md:py-32">
+      <h2 className="h2 pb-16 px-6 md:px-20">Projects</h2>
       <div className="flex flex-col border-y">
         {projectsData.map((projet) => (
           <Link
@@ -71,17 +46,13 @@ const Projects = () => {
               height="254"
               className="absolute max-h-[254px]"
             />
-            <div className="flex w-full justify-between items-center px-6 md:px-20 z-10">
-              <span className="menu__item-text">
-                <h3
-                  className={`${amphora.variable} font-amphora menu__item-textinner relative text-[28px] pl-5 before:content-[''] before:w-[8px] before:h-[8px] before:absolute before:bg-current before:rounded-full before:top-2/4 before:-translate-y-2/4 before:-left-0`}
-                >
+            <div className="flex flex-wrap md:flex-nowrap w-full justify-between items-center px-6 md:px-20 z-10">
+              <span className="menu__item-text w-full md:w-auto">
+                <h3 className="font-amphora menu__item-textinner relative text-[28px] pl-5 before:content-[''] before:w-[8px] before:h-[8px] before:absolute before:bg-current before:rounded-full before:top-2/4 before:-translate-y-2/4 before:-left-0">
                   {projet.title}
                 </h3>
               </span>
-              <div
-                className={`${switzer.variable} font-switzer flex text-2xl font-extralight z-10`}
-              >
+              <div className="font-switzer flex flex-col md:flex-row text-2xl font-extralight z-10">
                 {Object.values(projet.categories).map(
                   (categorie, index, array) => (
                     <p
