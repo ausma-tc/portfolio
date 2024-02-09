@@ -1,29 +1,11 @@
 // "use client";
 // import React, { useRef, useState } from "react";
-import localFont from "@next/font/local";
 import Image from "next/image";
+import MaskText from "@/src/components/ui/MaskText";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import { Mousewheel } from "swiper/modules";
 // import "swiper/css";
 import { projectsData } from "../../../src/data/projects";
-
-const amphora = localFont({
-  src: [
-    {
-      path: "../../../public/fonts/Amphora-Regular.otf",
-    },
-  ],
-  variable: "--font-amphora",
-});
-
-const switzer = localFont({
-  src: [
-    {
-      path: "../../../public/fonts/Switzer-Variable.ttf",
-    },
-  ],
-  variable: "--font-switzer",
-});
 
 export default function ProjectDetailPage({ params }) {
   const { slug } = params;
@@ -34,17 +16,11 @@ export default function ProjectDetailPage({ params }) {
   }
 
   return (
-    <main className="mainContent py-28 px-20">
-      <div className="pb-32">
-        <div className="flex w-full justify-between items-center">
-          <h1
-            className={`${amphora.variable} font-amphora text-[7.5rem] pb-20`}
-          >
-            {project.title}
-          </h1>
-          <div
-            className={`${switzer.variable} font-switzer flex text-2xl font-extralight`}
-          >
+    <main className="mainContent">
+      <div className="pb-20 md:pb-32">
+        <div className="flex flex-col md:flex-row w-full justify-between items-start md:items-center">
+          <h1 className="h1 pb-10 md:pb-20">{project.title}</h1>
+          <div className="font-switzer flex text-2xl font-extralight pb-5 md:pb-0">
             {Object.values(project.categories).map(
               (categorie, index, array) => (
                 <p
@@ -65,14 +41,12 @@ export default function ProjectDetailPage({ params }) {
           className="max-h-[828px]"
         />
       </div>
-      <div className="flex justify-between py-32">
-        <h2 className={`${amphora.variable} font-amphora text-4xl`}>
-          Contexte du projet
-        </h2>
-        <p className="w-full max-w-[50%]">{project.description}</p>
+      <div className="flex flex-col md:flex-row justify-between py-20 md:py-32">
+        <h2 className="h2 pb-5 md:pb-0">Contexte du projet</h2>
+        <p className="w-full md:max-w-[50%]">{project.description}</p>
       </div>
-      <div className="py-32">
-      <Image
+      <div className="py-20 md:py-32">
+        <Image
           src={project.image}
           alt={project.title}
           width="1280"

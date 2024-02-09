@@ -19,12 +19,11 @@ export default function Home() {
         }}
         transition={{ type: "tween", ease: "backOut" }}
       /> */}
-      <main className="mainContent home flex-1">
+      <main className="mainContent home flex-1 rounded-b-[80px] bg-primary">
         <HeroSection />
         <Description />
         <Projects />
         <Features />
-        <div className="rounded-bl-[80px] rounded-br-[80px] h-[55px]"></div>
       </main>
     </>
   );

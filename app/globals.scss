@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Amphora";
+  src: url("../public/fonts/Amphora-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("../public/fonts/Switzer-Variable.ttf");
+}
+
 :root {
   --text-rgb: 237, 244, 248;
   --primary-rgb: 17, 15, 82;
@@ -18,10 +27,24 @@
 
 body {
   color: rgb(var(--text-rgb));
-  background-color: rgb(var(--primary-rgb));
-  font-size: 16px;  cursor: none !important; /* Let's hide the default cursor so it looks way better */
+  background-color: rgb(var(--secondary-rgb));
+  font-size: 16px;
+  cursor: none !important; /* Let's hide the default cursor so it looks way better */
 }
-
+.h1 {
+  @media (min-width: 375px) {
+    @apply font-amphora text-5xl;
+  }
+  @media (min-width: 640px) {
+    @apply text-h1;
+  }
+}
+.h2 {
+  @apply font-amphora text-h2;
+}
+.mainContent:not(.home) {
+  @apply py-28 px-10 md:px-20 rounded-b-[80px] bg-primary;
+}
 p {
   margin-bottom: 1rem;
 }
@@ -120,4 +143,22 @@ p {
   opacity: 0 !important;
   transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
     opacity 0.2s ease-in-out;
+}
+
+.inner {
+  /* background-color: black; */
+}
+
+.inner .page {
+  /* background-color: #110F52; */
+}
+
+.inner .slide {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #26a8df;
+  z-index: 1;
 }

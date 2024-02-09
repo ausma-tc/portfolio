@@ -1,51 +1,30 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import localFont from "@next/font/local";
 import { projectsData } from "../../src/data/projects";
-
-const amphora = localFont({
-  src: [
-    {
-      path: "../../public/fonts/Amphora-Regular.otf",
-    },
-  ],
-  variable: "--font-amphora",
-});
-
-const switzer = localFont({
-  src: [
-    {
-      path: "../../public/fonts/Switzer-Variable.ttf",
-    },
-  ],
-  variable: "--font-switzer",
-});
+import MaskText from "@/src/components/ui/MaskText";
 
 const Projects = () => {
   return (
-    <main className="mainContent py-28 px-20">
-      <h1 className={`${amphora.variable} font-amphora text-[7.5rem] pb-20`}>
-        Mes projects
-      </h1>
-      <div className="grid grid-cols-12 grid-rows-3 sm:gap-12 lg:gap-32">
+    <main className="mainContent">
+      <h1 className="h1 pb-20">Mes projects</h1>
+      <div className="grid grid-cols-1 md:grid-cols-12 grid-rows-1 md:grid-rows-3 gap-5 md:gap-32">
         {projectsData.map((projet) => (
           <Link
             key={projet.id}
             href={`/projects/${projet.slug}`}
             className={`${
               projet.id === 0 || projet.id === 4
-                ? "col-span-5"
+                ? "md:col-span-5"
                 : projet.id === 1 || projet.id === 3
-                ? "col-span-7"
-                : "col-span-8"
+                ? "md:col-span-7"
+                : "md:col-span-8"
             } flex flex-col`}
           >
             <div
               className={`wrapper-img ${
                 projet.id === 0 || projet.id === 2 || projet.id === 4
-                  ? "max-h-[393px]"
-                  : "max-h-[598px]"
+                  ? "md:max-h-[393px]"
+                  : "md:max-h-[598px]"
               } overflow-hidden mb-10`}
             >
               <Image
@@ -68,11 +47,11 @@ const Projects = () => {
               />
             </div>
             <div className="wrapper-text flex">
-              <h3 className={`${amphora.variable} font-amphora text-[28px]`}>
-                <span className="underline">{projet.title}</span>
-                <span className={`${switzer.variable} font-switzer`}>
-                  - {projet.excerpt}
-                </span>
+              <h3 className="font-amphora text-[28px]">
+                <MaskText>
+                  <span className="underline">{projet.title}</span>
+                  <span className="font-switzer"> - {projet.excerpt}</span>
+                </MaskText>
               </h3>
             </div>
           </Link>
