@@ -1,11 +1,7 @@
-// "use client";
-// import React, { useRef, useState } from "react";
 import Image from "next/image";
 import MaskText from "@/src/components/ui/MaskText";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Mousewheel } from "swiper/modules";
-// import "swiper/css";
 import { projectsData } from "../../../src/data/projects";
+import Gallery from "@/src/components/ui/Gallery";
 
 export default function ProjectDetailPage({ params }) {
   const { slug } = params;
@@ -46,39 +42,8 @@ export default function ProjectDetailPage({ params }) {
         <p className="w-full md:max-w-[50%]">{project.description}</p>
       </div>
       <div className="py-20 md:py-32">
-        <Image
-          src={project.image}
-          alt={project.title}
-          width="1280"
-          height="828"
-          className="w-full max-h-[598px]"
-        />
-        {/* <Swiper
-          direction={"horizontal"}
-          slidesPerView={"auto"}
-          spaceBetween={80}
-          mousewheel={true}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Mousewheel]}
-          className="swipGallery"
-        >
-          {Object.values(project.gallery).map((imgSrc, index) => (
-            <SwiperSlide key={index}>
-              {" "}
-              <Image
-                src={imgSrc}
-                width={1280}
-                height={600}
-                alt="Picture of the author"
-                className="w-full"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper> */}
+        <Gallery images={Object.values(project.gallery)} />
       </div>
-      {/* Autres détails du projet */}
     </main>
   );
 }

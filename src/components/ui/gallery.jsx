@@ -5,12 +5,12 @@ import { Mousewheel } from "swiper/modules";
 import Image from "next/image";
 import "swiper/css";
 
-const Gallery = () => {
+const Gallery = ({ images }) => {
   return (
     <>
       <Swiper
         direction={"horizontal"}
-        slidesPerView={'auto'}
+        slidesPerView={"auto"}
         spaceBetween={80}
         mousewheel={true}
         pagination={{
@@ -19,56 +19,17 @@ const Gallery = () => {
         modules={[Mousewheel]}
         className="swipGallery"
       >
-        <SwiperSlide>
-          {" "}
-          <Image
-            src="/images/rect-1.jpeg"
-            width={1280}
-            height={600}
-            alt="Picture of the author"
-            className="w-full"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <Image
-            src="/images/rect-1.jpeg"
-            width={1280}
-            height={600}
-            alt="Picture of the author"
-            className="w-full"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <Image
-            src="/images/rect-1.jpeg"
-            width={1280}
-            height={600}
-            alt="Picture of the author"
-            className="w-full"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <Image
-            src="/images/rect-1.jpeg"
-            width={1280}
-            height={600}
-            alt="Picture of the author"
-            className="w-full"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <Image
-            src="/images/rect-1.jpeg"
-            width={1280}
-            height={600}
-            alt="Picture of the author"
-            className="w-full"
-          />
-        </SwiperSlide>
+        {images.map((src, index) => (
+          <SwiperSlide key={index}>
+            <Image
+              src={src}
+              width={1280}
+              height={600}
+              alt="Image de galerie"
+              className="w-full"
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );

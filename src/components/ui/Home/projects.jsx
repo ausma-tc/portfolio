@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { projectsData } from "../../data/projects";
+import { projectsData } from "../../../data/projects";
 
 const Projects = () => {
   // Logique pour gérer le mouvement de la souris et la mise à jour du style

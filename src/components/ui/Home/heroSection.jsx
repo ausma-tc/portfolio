@@ -1,4 +1,4 @@
-import StarAnim from "./StarAnim";
+import StarAnim from "../StarAnim";
 
 const HeroSection = () => {
   return (
@@ -7,7 +7,7 @@ const HeroSection = () => {
         <h1 className="uppercase relative text-[15vw] leading-[100%] min-w-[90%] pb-20">
           Thomas <br />
           <span className="font-switzer font-bold">Corbières</span>
-        <StarAnim />
+          <StarAnim />
         </h1>
       </div>
       <div className="flex w-full justify-end">

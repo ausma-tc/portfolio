@@ -1,9 +1,9 @@
 "use client";
 import useMousePosition from "@/src/utils/useMousePosition";
-import HeroSection from "@/src/components/ui/heroSection";
-import Description from "@/src/components/ui/description";
-import Projects from "@/src/components/ui/projects";
-import Features from "@/src/components/ui/features";
+import HeroSection from "@/src/components/ui/Home/heroSection";
+import Description from "@/src/components/ui/Home/description";
+import Projects from "@/src/components/ui/Home/projects";
+import Features from "@/src/components/ui/Home/features";
 import { motion } from "framer-motion";
 
 export default function Home() {
