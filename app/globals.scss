@@ -162,3 +162,24 @@ p {
   background-color: #26a8df;
   z-index: 1;
 }
+
+
+// animation star
+.star {  
+  transform-origin: center;
+  animation: svg-animation 2s ease-out forwards;
+  svg {
+  }
+}
+
+@keyframes svg-animation {
+  0% {
+    transform: scale(40) rotate(360deg);
+  }
+  90% {
+    transform: scale(0.5) rotate(10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
