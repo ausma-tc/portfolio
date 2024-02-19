@@ -1,8 +1,5 @@
-import React from "react";
-
 const StarAnim = () => {
   return (
-    // <div className="star absolute top-0 md:top-12 right-0 max-w-[60px] md:max-w-[100%]">
     <div className="star absolute top-0 md:top-3 right-0 max-w-[15vw] ">
       <svg
         viewBox="0 0 138 137"

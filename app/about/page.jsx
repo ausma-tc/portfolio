@@ -11,23 +11,40 @@ const About = () => {
         <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-10">
           <div className="wrapper-text max-w-full lg:max-w-[50%]">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Tellus tortor mauris
-              commodo et faucibus velit id eget. Venenatis et tempus metus morbi
-              gravida enim senectus justo elementum. Ipsum ipsum massa venenatis
-              egestas gravida gravida rhoncus ipsum. Scelerisque id tempor
-              quisque in molestie. Id pellentesque lorem nulla pulvinar integer
-              feugiat.
+              J'ai toujours eu envie de créer de nouvelles choses, la créativité
+              et le dépassement de soi sont quelque chose d’ancré en moi. Me
+              lancer dans le développement web a changé beaucoup de choses, et
+              depuis, j'essaie de pousser mon travail vers de nouveaux horizons
+              à chaque projet, en privilégiant toujours la qualité. Après avoir
+              travaillé 3 ans chez Evisiance, une agence web basé à Lyon, je
+              décide maintenant de me mettre en freelance pour travailler sur de
+              nouveaux projets passionnants entourées de personnes talentueuses.
+            </p>
+            <p>
+              Pour chaque projet sur lequel je travaille, je porte une attention
+              particulière à l'interaction, aux animations et à la performance
+              de votre site. Cela afin que vos utilisateurs puissent vivre une
+              expérience unique et agréable tout au long de leur visite.
             </p>
             <p className="mb-10">
-              Felis id enim malesuada vitae sollicitudin rutrum bibendum ante
-              porttitor. Nunc euismod tincidunt pulvinar cursus et tortor nibh
-              ut. Sed sed sed sapien est. Tristique donec commodo dignissim
-              fusce velit sapien etiam eget.
+              J’ai hâte de continuer mon aventure à vos côtés, en travaillant
+              sur l’un de vos prochains projets.
+            </p>
+            <h2 className="h2 pb-5 md:pb-0">Stacks</h2>
+            <p className="mb-10">
+              Je travaille généralement sans framework pour les petits projets,
+              me laissant une totale liberté sur l'architecture, un CMS Headless
+              comme Strapi ou Wordpress pour la gestion de contenu, GSAP pour
+              les animations et Three.js pour WebGL. Pour des projets de plus
+              grosse envergure, j'utilise Next.js.
             </p>
             <ul className="flex">
               <IconMagnetic>
                 <li className="p-5">
-                  <a href="https://www.linkedin.com/in/thomas-corbieres/" target="_blank">
+                  <a
+                    href="https://www.linkedin.com/in/thomas-corbieres/"
+                    target="_blank"
+                  >
                     <svg
                       height="32"
                       viewBox="0 0 72 72"

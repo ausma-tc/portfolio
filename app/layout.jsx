@@ -1,6 +1,7 @@
 import Header from "@/src/components/layout/Header";
 import Footer from "@/src/components/layout/Footer";
 import Inner from "@/src/components/layout/Inner";
+import Stairs from "@/src/components/layout/Stairs/page";
 import { LenisScroller } from "@/src/components/ui/lenis-scroller";
 import FlareCursor from "../src/utils/FlareCursor";
 import FlareController from "./providers/flareController"; // Nouveau client component
@@ -19,10 +20,9 @@ export default function RootLayout({ children }) {
         <div className="relative flex min-h-screen flex-col">
           <FlareController>
             <FlareCursor />
-            <Inner>
-              {children}
-              <Footer />
-            </Inner>
+            <Header />
+            {children}
+            <Footer />
           </FlareController>
         </div>
         <LenisScroller />

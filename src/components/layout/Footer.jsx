@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="flex items-center pt-16 pb-14 md:pt-36 md:pb-32 border-b border-primary">
         <a
           href="mailto:t.corbieres@gmail.com"
-          className="text-3xl leading-4 md:text-[100px] text-primary pr-10 hover:bg-secondary active:bg-secondary"
+          className="text-3xl leading-4 md:leading-[5rem] lg:leading-4 md:text-[100px] text-primary pr-10 hover:bg-secondary active:bg-secondary"
         >
           Envoyez un mail
         </a>

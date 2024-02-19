@@ -2,6 +2,7 @@ import Image from "next/image";
 import MaskText from "@/src/components/ui/MaskText";
 import { projectsData } from "../../../src/data/projects";
 import Gallery from "@/src/components/ui/Gallery";
+import parse from "html-react-parser";
 
 export default function ProjectDetailPage({ params }) {
   const { slug } = params;
@@ -39,7 +40,18 @@ export default function ProjectDetailPage({ params }) {
       </div>
       <div className="flex flex-col md:flex-row justify-between py-20 md:py-32">
         <h2 className="h2 pb-5 md:pb-0">Contexte du projet</h2>
-        <p className="w-full md:max-w-[50%]">{project.description}</p>
+        <div className="flex flex-col md:max-w-[50%]">
+          <div className="w-full ">{parse(`${project.description}`)}</div>
+          {project.url && (
+            <a
+              href={project.url}
+              target="_blank"
+              className="w-full underline uppercase"
+            >
+              Visiter le site
+            </a>
+          )}
+        </div>
       </div>
       <div className="py-20 md:py-32">
         <Gallery images={Object.values(project.gallery)} />
