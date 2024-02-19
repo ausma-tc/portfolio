@@ -1,7 +1,6 @@
 import Image from "next/image";
-import MaskText from "@/src/components/ui/MaskText";
 import { projectsData } from "../../../src/data/projects";
-import Gallery from "@/src/components/ui/Gallery";
+import Gallery from "../../../src/components/ui/gallery";
 import parse from "html-react-parser";
 
 export default function ProjectDetailPage({ params }) {
