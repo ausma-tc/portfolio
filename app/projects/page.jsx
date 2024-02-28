@@ -6,7 +6,7 @@ import MaskText from "@/src/components/ui/MaskText";
 const Projects = () => {
   return (
     <main className="mainContent">
-      <h1 className="h1 pb-20">Mes projects</h1>
+      <h1 className="h1 pb-20">My projects</h1>
       <div className="grid grid-cols-1 xl:grid-cols-12 grid-rows-1 xl:grid-rows-3 gap-5 xl:gap-32 max-w-[100vw]">
         {projectsData.map((projet) => (
           <Link

@@ -16,7 +16,7 @@ const Footer = () => {
           href="mailto:t.corbieres@gmail.com"
           className="text-3xl leading-8 md:leading-[5rem] lg:leading-4 md:text-[100px] text-primary pr-10 hover:bg-secondary active:bg-secondary"
         >
-          Envoyez un mail
+          Send an email
         </a>
         <IconMagnetic>
           <span className="max-w-[40px] md:max-w-[80px]">
@@ -62,7 +62,7 @@ const Footer = () => {
         </a>
       </nav>
       <p className="text-primary font-switzer text-sm">
-        Copyright 2024 © Thomas Corbières | Design by{" "}
+        Copyright 2024 © Thomas Corbières | Designed by{" "}
         <a
           href="https://www.linkedin.com/in/loick-legallais/"
           target="_blank"

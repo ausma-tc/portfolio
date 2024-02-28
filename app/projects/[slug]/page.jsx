@@ -8,7 +8,7 @@ export default function ProjectDetailPage({ params }) {
   const project = projectsData.find((proj) => proj.slug === slug);
 
   if (!project) {
-    return <div>Projet non trouvé</div>;
+    return <div>Project not founded</div>;
   }
 
   return (
@@ -38,7 +38,7 @@ export default function ProjectDetailPage({ params }) {
         />
       </div>
       <div className="flex flex-col md:flex-row justify-between py-20 md:py-32">
-        <h2 className="h2 pb-5 md:pb-0">Contexte du projet</h2>
+        <h2 className="h2 pb-5 md:pb-0">Project context</h2>
         <div className="flex flex-col md:max-w-[50%]">
           <div className="w-full ">{parse(`${project.description}`)}</div>
           {project.url && (
@@ -47,7 +47,7 @@ export default function ProjectDetailPage({ params }) {
               target="_blank"
               className="w-full underline uppercase"
             >
-              Visiter le site
+              Visit website
             </a>
           )}
         </div>

@@ -12,8 +12,8 @@ const HeroSection = () => {
       </div>
       <div className="flex w-full justify-end">
         <p className="max-w-lg">
-          Hey! Je m’appelle Thomas, développeur front-end de 28 ans.
-          Actuellement basé à Montréal au Canada, mais vivant en France.
+          Hey! My name is Thomas, a 28-year-old front-end developer. Currently
+          based in Montreal, Canada, but living in France.
         </p>
       </div>
     </section>

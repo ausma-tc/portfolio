@@ -4,7 +4,6 @@ import Image from "next/image";
 import { projectsData } from "../../../data/projects";
 
 const Projects = () => {
-  // Logique pour gérer le mouvement de la souris et la mise à jour du style
   const handleMouseMove = (event, projectId) => {
     // Récupère la position relative de l'élément Link qui contient l'image.
     const linkElement = event.currentTarget;
@@ -46,13 +45,13 @@ const Projects = () => {
               height="254"
               className="absolute max-h-[254px]"
             />
-            <div className="flex flex-wrap md:flex-nowrap w-full justify-between items-center px-6 md:px-20 z-10">
+            <div className="flex flex-wrap md:flex-nowrap w-full justify-between items-center px-6 md:px-20">
               <span className="menu__item-text w-full md:w-auto">
-                <h3 className="font-amphora menu__item-textinner relative text-[28px] pl-5 before:content-[''] before:w-[8px] before:h-[8px] before:absolute before:bg-current before:rounded-full before:top-2/4 before:-translate-y-2/4 before:-left-0">
+                <h3 className="font-amphora menu__item-textinner relative z-0 text-[28px] pl-5 before:content-[''] before:w-[8px] before:h-[8px] before:absolute before:bg-current before:rounded-full before:top-2/4 before:-translate-y-2/4 before:-left-0">
                   {projet.title}
                 </h3>
               </span>
-              <div className="font-switzer flex flex-col md:flex-row text-2xl font-extralight z-10">
+              <div className="font-switzer flex flex-col md:flex-row text-2xl font-extralight">
                 {Object.values(projet.categories).map(
                   (categorie, index, array) => (
                     <p
@@ -64,7 +63,7 @@ const Projects = () => {
                   )
                 )}
               </div>
-              <span className="max-w-[82px] z-10">
+              <span className="max-w-[82px]">
                 <svg
                   width="82"
                   height="34"

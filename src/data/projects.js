@@ -1,136 +1,136 @@
 export const projectsData = [
-    {
-      id: 0,
-      slug: "asnieres-sur-seine",
-      title: "Asnières-Sur-Seine",
-      categories: {
-        1: "Typo3",
-        2: "Sass",
-        3: "Javascript"
-      },
-      excerpt: "Réalisation du site de la ville d'Asnière-Sur-Seine via un CMS.",
-      description: `<p>Le site web d'Asnières-sur-Seine représente une collaboration passionnante où j'ai eu l'opportunité de mettre en pratique mes compétences en développement front-end. <br/>
-      Asnières-sur-Seine, cherchait à se doter d'une plateforme en ligne moderne et fonctionnelle pour mieux servir ses citoyens, promouvoir ses activités et faciliter les échanges avec les habitants et les visiteurs. Le défi était de concevoir un site qui reflète l'identité vibrante de la ville tout en offrant une navigation intuitive et une accessibilité optimale à tous les utilisateurs.</p>
+  {
+    id: 0,
+    slug: "asnieres-sur-seine",
+    title: "Asnières-Sur-Seine",
+    categories: {
+      1: "Typo3",
+      2: "Sass",
+      3: "Javascript",
+    },
+    excerpt: "Creation of the Asnière-Sur-Seine city website using a CMS.",
+    description: `<p>The Asnières-sur-Seine website represents an exciting collaboration where I had the opportunity to apply my front-end development skills. Asnières-sur-Seine was looking to equip itself with a modern and functional online platform to better serve its citizens, promote its activities, and facilitate exchanges with residents and visitors. The challenge was to design a site that reflects the vibrant identity of the city while providing intuitive navigation and optimal accessibility for all users.</p>
   
-      <p><strong>Description du projet :</strong> Conçu sous le CMS Typo3 et enrichi de technologies telles que Sass et JavaScript, le site web d'Asnières-sur-Seine offre une expérience utilisateur immersive et intuitive. En tant que développeur front-end, j'ai eu le privilège de travailler en étroite collaboration avec un développeur back-end pour répondre à certaines spécificités fonctionnelles.</p>
+      <p><strong>Project description :</strong> Designed using the Typo3 CMS and enriched with technologies such as Sass and JavaScript, the Asnières-sur-Seine website offers an immersive and intuitive user experience. As a front-end developer, I had the privilege of working closely with a back-end developer to address certain functional specifics.</p>
       
-      <p><strong>Réalisation :</strong> Mon rôle dans ce projet a été polyvalent. J'ai eu la responsabilité d'intégrer la maquette graphique tout en veillant à son rendu optimal sur différents appareils et navigateurs. Mon expertise en Sass m'a permis d'optimiser le CSS pour garantir des performances accrues et une maintenance simplifiée. De plus, j'ai mis en œuvre des fonctionnalités interactives en JavaScript pour enrichir l'expérience utilisateur.</p>
+      <p><strong>Realization :</strong> My role in this project was versatile. I was responsible for integrating the graphic design while ensuring its optimal rendering across different devices and browsers. My expertise in Sass allowed me to optimize the CSS to ensure increased performance and simplified maintenance. Additionally, I implemented interactive features in JavaScript to enrich the user experience.</p>
       
-      <p><strong>Collaboration :</strong> Bien que la majeure partie du travail ait été réalisée individuellement, j'ai eu l'occasion de collaborer avec un développeur back-end pour résoudre quelques défis techniques spécifiques. Cette synergie entre les différentes compétences a été essentielle pour assurer le succès du projet.</p>`,
-      image: '/images/asnieres-sur-seine/asnieres-sur-seine-1.svg',
-      gallery: {
-        1: '/images/asnieres-sur-seine/asnieres-sur-seine-1.svg',
-        2: '/images/asnieres-sur-seine/asnieres-sur-seine-2.svg',
-        3: '/images/asnieres-sur-seine/asnieres-sur-seine-3.svg',
-        4: '/images/asnieres-sur-seine/asnieres-sur-seine-4.svg',
-        5: '/images/asnieres-sur-seine/asnieres-sur-seine-5.svg'
-      },
-      url: "https://asnieres-sur-seine.fr/"
-    }, 
-    {
-        id: 1,
-        slug: 'futur-en-main',
-        title: 'Futur en main',
-        categories: {
-          1: 'Typo3',
-          2: 'SASS'
-        },
-        excerpt: "Réalisation d'un site et d'un extranet pour le projet Futur en main via un CMS.",
-        description: `<p>La réalisation du site Futur en Main pour le Département des Hauts-de-Seine a été une opportunité exceptionnelle de contribuer à un projet d'envergure visant à soutenir les jeunes en difficulté. En tant que développeur front-end, j'ai été impliqué dans toutes les phases du projet, depuis la conception initiale jusqu'à la mise en ligne, en collaborant étroitement avec une équipe multidisciplinaire.</p>
+      <p><strong>Collaboration :</strong> Although most of the work was done individually, I had the chance to collaborate with a back-end developer to solve some specific technical challenges. This synergy between different skills was essential for the success of the project.</p>`,
+    image: "/images/asnieres-sur-seine/asnieres-sur-seine-1.svg",
+    gallery: {
+      1: "/images/asnieres-sur-seine/asnieres-sur-seine-1.svg",
+      2: "/images/asnieres-sur-seine/asnieres-sur-seine-2.svg",
+      3: "/images/asnieres-sur-seine/asnieres-sur-seine-3.svg",
+      4: "/images/asnieres-sur-seine/asnieres-sur-seine-4.svg",
+      5: "/images/asnieres-sur-seine/asnieres-sur-seine-5.svg",
+    },
+    url: "https://asnieres-sur-seine.fr/",
+  },
+  {
+    id: 1,
+    slug: "futur-en-main",
+    title: "Futur en main",
+    categories: {
+      1: "Typo3",
+      2: "SASS",
+    },
+    excerpt:
+      "Creation of a website and an extranet for the Futur en main project using a CMS.",
+    description: `<p>The creation of the Futur en Main website for the Hauts-de-Seine Department was an exceptional opportunity to contribute to a significant project aimed at supporting youth in difficulty. As a front-end developer, I was involved in all phases of the project, from initial design to launch, working closely with a multidisciplinary team.</p>
 
-          <p><strong>Description du projet :</strong> Le site web Futur en Main est une plateforme complète destinée à informer, à soutenir et à accompagner les jeunes en recherche d'orientation professionnelle et d'aide sociale. Conçu sous le CMS Typo3 et enrichi de technologies telles que Sass et JavaScript, le site offre une expérience utilisateur dynamique et engageante.</p>
+          <p><strong>Project description :</strong> The Futur en Main website is a comprehensive platform designed to inform, support, and guide young people in their search for professional orientation and social assistance. Developed using the Typo3 CMS and enhanced with technologies such as Sass and JavaScript, the site offers a dynamic and engaging user experience.</p>
           
-          <p><strong>Fonctionnalités clés :</strong> Le site présente une multitude de fonctionnalités, notamment la présentation du projet, un agenda des événements, des actualités, ainsi qu'un extranet dédié aux jeunes en situation de besoin. En collaboration avec un développeur back-end, nous avons travaillé en tandem pour développer et intégrer cette partie extranet, offrant ainsi un espace sécurisé et convivial pour les utilisateurs cibles.</p>
+          <p><strong>Key features :</strong> The site includes a multitude of features, including project presentation, an event calendar, news, as well as an extranet dedicated to youths in need. In collaboration with a back-end developer, we worked in tandem to develop and integrate this extranet part, thereby providing a secure and user-friendly space for the target users.</p>
           
-          <p><strong>Collaboration :</strong> Cette réalisation a nécessité une étroite collaboration avec l'équipe UI/UX pour améliorer la maquette et intégrer des animations fluides qui enrichissent l'expérience utilisateur. La synergie entre les différents membres de l'équipe, alliant expertise technique et sensibilité au design, a été essentielle pour aboutir à un résultat final à la fois fonctionnel et esthétique.</p>`,
-        image: "/images/futur-en-main/futur-en-main.svg",
-        gallery: {
-          1: '/images/futur-en-main/futur-en-main.svg',
-          2: '/images/futur-en-main/futur-en-main-2.svg',
-          3: '/images/futur-en-main/futur-en-main-3.svg',
-          4: '/images/futur-en-main/futur-en-main-4.svg'
-        },
-        url: "https://futur-en-main.hauts-de-seine.fr/"
-      },
-      {
-        id: 2,
-        slug: "excelys-tours",
-        title: "Excelys Tours",
-        categories: {
-          1: "Wordpress",
-          2: "ACF",
-        },
-        excerpt: "Réalisation d'un site vitrine pour Excelys Tours (Selectour)",
-        description: `<p>La création du site vitrine pour l'agence réceptive lyonnaise Excelys Tours a été une expérience passionnante, me permettant de contribuer à la promotion d'une entreprise locale dans le secteur du tourisme. En tant que développeur front-end, j'ai eu l'opportunité de concevoir et de développer ce projet de A à Z, en mettant en valeur le savoir-faire et l'offre unique d'Excelys Tours.</p>
+          <p><strong>Collaboration :</strong> This achievement required close collaboration with the UI/UX team to refine the design and integrate smooth animations that enrich the user experience. The synergy between the different team members, combining technical expertise and design sensibility, was essential for achieving a final result that is both functional and aesthetically pleasing.</p>`,
+    image: "/images/futur-en-main/futur-en-main.svg",
+    gallery: {
+      1: "/images/futur-en-main/futur-en-main.svg",
+      2: "/images/futur-en-main/futur-en-main-2.svg",
+      3: "/images/futur-en-main/futur-en-main-3.svg",
+      4: "/images/futur-en-main/futur-en-main-4.svg",
+    },
+    url: "https://futur-en-main.hauts-de-seine.fr/",
+  },
+  {
+    id: 2,
+    slug: "excelys-tours",
+    title: "Excelys Tours",
+    categories: {
+      1: "Wordpress",
+      2: "ACF",
+    },
+    excerpt: "Creation of a showcase website for Excelys Tours (Selectour).",
+    description: `<p>The creation of the showcase site for the Lyon-based receptive agency Excelys Tours was an exciting experience, allowing me to contribute to the promotion of a local business in the tourism sector. As a front-end developer, I had the opportunity to design and develop this project from start to finish, showcasing the expertise and unique offerings of Excelys Tours.</p>
 
-        <p><strong>Description du projet :</strong> Le site vitrine d'Excelys Tours est une vitrine en ligne élégante et fonctionnelle, permettant aux visiteurs de découvrir les offres de l'agence, ses destinations phares et ses services sur mesure. Réalisé avec Wordpress et Advanced Custom Fields (ACF), le site offre une expérience utilisateur intuitive et informative.</p>
+        <p><strong>Project description :</strong> The Excelys Tours showcase site is an elegant and functional online showcase, allowing visitors to discover the agency's offers, flagship destinations, and tailor-made services. Created with WordPress and Advanced Custom Fields (ACF), the site offers an intuitive and informative user experience.</p>
         
-        <p><strong>Fonctionnalités clés :</strong> Le site présente de manière claire et attrayante les différents circuits et voyages proposés par Excelys Tours, ainsi que des informations pratiques sur les destinations, les hébergements et les activités. Les visiteurs peuvent également contacter l'agence facilement grâce à un formulaire de contact intégré.</p>
+        <p><strong>Key features :</strong> The site clearly and attractively presents the various tours and trips offered by Excelys Tours, as well as practical information about destinations, accommodations, and activities. Visitors can also easily contact the agency through an integrated contact form.</p>
         
-        <p><strong>Conception et Collaboration :</strong> J'ai eu le privilège de travailler sur l'ensemble du projet, de la conception de la maquette sous Figma à la réalisation technique du site sous Wordpress. La création du logo de l'agence m'a également été confiée, me permettant de contribuer à l'identité visuelle globale d'Excelys Tours. La collaboration avec l'équipe projet a été facilitée grâce à l'utilisation de Notion, nous permettant de coordonner efficacement les réunions et les éléments du projet.</p>
+        <p><strong>Design and Collaboration :</strong> I had the privilege of working on the entire project, from designing the mockup in Figma to the technical realization of the site in WordPress. I was also entrusted with the creation of the agency's logo, allowing me to contribute to the overall visual identity of Excelys Tours. Collaboration with the project team was facilitated through the use of Notion, enabling us to coordinate meetings and project elements efficiently.</p>
         
         `,
-        image: "/images/excelys-tours/excelys-tours.svg",
-        gallery: {
-          1: '/images/excelys-tours/excelys-tours.svg',
-          2: '/images/excelys-tours/excelys-tours-2.svg',
-          3: '/images/excelys-tours/excelys-tours-3.svg',
-          4: '/images/excelys-tours/excelys-tours-4.svg',
-          5: '/images/excelys-tours/excelys-tours-5.svg',
-          6: '/images/excelys-tours/excelys-tours-6.svg'
-        },
-        url: ""
-      },
-      {
-        id: 3,
-        slug: "fondation-neurodis",
-        title: "Fondation Neurodis",
-        categories: {
-          1: "Wordpress",
-          2: "ACF",
-        },
-        excerpt: "Réalisation du site et de la TMA.",
-        description: `<p>La création du site web de la Fondation Neurodis a été une expérience enrichissante, me permettant de contribuer à la sensibilisation et à la recherche sur les maladies du cerveau. En tant que développeur front-end, j'ai été impliqué dans le développement et l'amélioration continue de cette vitrine en ligne essentielle.</p>
+    image: "/images/excelys-tours/excelys-tours.svg",
+    gallery: {
+      1: "/images/excelys-tours/excelys-tours.svg",
+      2: "/images/excelys-tours/excelys-tours-2.svg",
+      3: "/images/excelys-tours/excelys-tours-3.svg",
+      4: "/images/excelys-tours/excelys-tours-4.svg",
+      5: "/images/excelys-tours/excelys-tours-5.svg",
+      6: "/images/excelys-tours/excelys-tours-6.svg",
+    },
+    url: "",
+  },
+  {
+    id: 3,
+    slug: "fondation-neurodis",
+    title: "Fondation Neurodis",
+    categories: {
+      1: "Wordpress",
+      2: "ACF",
+    },
+    excerpt: "Creation of the site and maintenance (TMA).",
+    description: `<p>The creation of the website for the Neurodis Foundation was a rewarding experience, allowing me to contribute to the awareness and research on brain diseases. As a front-end developer, I was involved in the development and ongoing improvement of this essential online showcase.</p>
 
-        <p><strong>Description du projet :</strong> Le site de la Fondation Neurodis est une plateforme dédiée à informer et à mobiliser autour des différentes maladies du cerveau. Réalisé sur mesure avec Wordpress et utilisant Advanced Custom Fields (ACF) Pro pour une personnalisation avancée, le site offre une expérience utilisateur fluide et intuitive.</p>
+        <p><strong>Project description :</strong> The Neurodis Foundation's website is a platform dedicated to informing and mobilizing around various brain diseases. Custom-built with WordPress and utilizing Advanced Custom Fields (ACF) Pro for advanced customization, the site offers a smooth and intuitive user experience.</p>
         
-        <p><strong>Fonctionnalités et contributions :</strong> Mon rôle dans ce projet a été diversifié, allant de la maintenance évolutive à la réalisation d'animations en JavaScript pour enrichir l'interactivité du site. J'ai également été impliqué dans la gestion de la TMA (Tierce Maintenance Applicative), assurant ainsi la stabilité et la performance du site au fil du temps.</p>
+        <p><strong>Features and contributions :</strong> My role in this project was varied, ranging from evolutionary maintenance to the creation of JavaScript animations to enrich the site's interactivity. I was also involved in the management of TMA (Third-Party Application Maintenance), thus ensuring the stability and performance of the site over time.</p>
         
-        <p><strong>Collaboration :</strong> Bien que j'aie principalement travaillé sur le développement front-end, cette réalisation a été le fruit d'une collaboration étroite avec d'autres membres de l'équipe, notamment les développeurs back-end pour intégrer de nouvelles fonctionnalités et les designers pour harmoniser l'aspect visuel du site avec la marque de la Fondation Neurodis.</p>`,
-        image: "/images/fondation-neurodis/fondation-neurodis-1.svg",
-        gallery: {
-          1: '/images/fondation-neurodis/fondation-neurodis-1.svg',
-          2: '/images/fondation-neurodis/fondation-neurodis-2.svg',
-          3: '/images/fondation-neurodis/fondation-neurodis-3.svg',
-          4: '/images/fondation-neurodis/fondation-neurodis-4.svg',
-          5: '/images/fondation-neurodis/fondation-neurodis-5.svg',
-          6: '/images/fondation-neurodis/fondation-neurodis-6.svg'
-        },
-        url: "https://www.fondation-neurodis.org/"
-      },
-      {
-        id: 4,
-        slug: "blog-bleuvoyages",
-        title: "Le Blog Bleu Voyages",
-        categories: {
-          1: "Wordpress",
-        },
-        excerpt: "Réalisation d'un blog pour Selectour Bleu Voyages",
-        description: `La création du blog de voyage pour Selectour Bleu Voyages a été une occasion unique de mettre en valeur l'expertise de l'agence de voyage et de créer une plateforme interactive où les collaborateurs peuvent partager leurs expériences et conseils en matière de voyage. En tant que développeur front-end, j'ai eu l'opportunité de concevoir et de développer entièrement ce projet, du design à la réalisation technique.</p>
+        <p><strong>Collaboration :</strong> Although I primarily worked on front-end development, this achievement was the result of close collaboration with other team members, including back-end developers to integrate new features and designers to align the site's visual appearance with the Neurodis Foundation's brand.</p>`,
+    image: "/images/fondation-neurodis/fondation-neurodis-1.svg",
+    gallery: {
+      1: "/images/fondation-neurodis/fondation-neurodis-1.svg",
+      2: "/images/fondation-neurodis/fondation-neurodis-2.svg",
+      3: "/images/fondation-neurodis/fondation-neurodis-3.svg",
+      4: "/images/fondation-neurodis/fondation-neurodis-4.svg",
+      5: "/images/fondation-neurodis/fondation-neurodis-5.svg",
+      6: "/images/fondation-neurodis/fondation-neurodis-6.svg",
+    },
+    url: "https://www.fondation-neurodis.org/",
+  },
+  {
+    id: 4,
+    slug: "blog-bleuvoyages",
+    title: "Le Blog Bleu Voyages",
+    categories: {
+      1: "Wordpress",
+    },
+    excerpt: "Creation of a blog for Selectour Bleu Voyages.",
+    description: `<p>The creation of the travel blog for Selectour Bleu Voyages was a unique opportunity to highlight the travel agency's expertise and create an interactive platform where collaborators can share their experiences and travel advice. As a front-end developer, I had the opportunity to fully design and develop this project, from the design to the technical realization.</p>
 
-        <p><strong>Description du projet :</strong> Le blog de voyage de Selectour Bleu Voyages est une source d'inspiration et d'informations pour les passionnés de voyages. Réalisé avec une approche sur mesure, j'ai eu la responsabilité de concevoir non seulement l'aspect visuel du site, mais aussi son fonctionnement et son expérience utilisateur.</p>
+        <p><strong>Project description :</strong> The Selectour Bleu Voyages travel blog is a source of inspiration and information for travel enthusiasts. Made with a custom approach, I was responsible for designing not only the visual appearance of the site but also its functionality and user experience.</p>
         
-        <p><strong>Fonctionnalités clés :</strong> Le site offre une multitude de fonctionnalités pour permettre aux collaborateurs de partager leurs récits de voyage, conseils pratiques et idées d'itinéraires. Les utilisateurs peuvent naviguer facilement à travers les différents articles, filtrer par destinations ou thématiques, et interagir via des commentaires.</p>
+        <p><strong>Key features :</strong>  The site offers a multitude of features to allow collaborators to share their travel stories, practical advice, and itinerary ideas. Users can easily navigate through the different articles, filter by destinations or themes, and interact via comments.</p>
         
-        <p><strong>Collaboration :</strong> Bien que j'aie été responsable de la réalisation technique du projet, cette réalisation a été le fruit d'une collaboration étroite avec les équipes marketing et communication de Selectour Bleu Voyages. Leur expertise et leurs retours ont été précieux pour garantir que le blog réponde aux attentes des utilisateurs et reflète au mieux la marque.</p>`,
-        image: "/images/blog-bleuvoyages/blog-bleuvoyages.svg",
-        gallery: {
-          1: '/images/blog-bleuvoyages/blog-bleuvoyages.svg',
-          2: '/images/blog-bleuvoyages/blog-bleuvoyages-2.svg',
-          3: '/images/blog-bleuvoyages/blog-bleuvoyages-3.svg',
-          4: '/images/blog-bleuvoyages/blog-bleuvoyages-4.svg',
-          5: '/images/blog-bleuvoyages/blog-bleuvoyages-5.svg'
-        },
-        url: "https://blog-bleuvoyages.fr/"
-      },
-  ];
+        <p><strong>Collaboration :</strong> Although I was responsible for the technical realization of the project, this achievement was the result of close collaboration with the marketing and communication teams of Selectour Bleu Voyages. Their expertise and feedback were invaluable in ensuring that the blog meets user expectations and best reflects the brand.</p>`,
+    image: "/images/blog-bleuvoyages/blog-bleuvoyages.svg",
+    gallery: {
+      1: "/images/blog-bleuvoyages/blog-bleuvoyages.svg",
+      2: "/images/blog-bleuvoyages/blog-bleuvoyages-2.svg",
+      3: "/images/blog-bleuvoyages/blog-bleuvoyages-3.svg",
+      4: "/images/blog-bleuvoyages/blog-bleuvoyages-4.svg",
+      5: "/images/blog-bleuvoyages/blog-bleuvoyages-5.svg",
+    },
+    url: "https://blog-bleuvoyages.fr/",
+  },
+];

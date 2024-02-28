@@ -37,11 +37,11 @@ const Description = () => {
           ref={target}
           className="font-amphora text-4xl leading-[54px] text-center pb-12"
         >
-          J'ai toujours eu envie de créer de nouvelles choses, la créativité et
-          le dépassement de soi sont quelque chose d’ancré en moi. Me lancer
-          dans le développement web a changé beaucoup de choses, et depuis,
-          j'essaie de pousser mon travail vers de nouveaux horizons à chaque
-          projet, en privilégiant toujours la qualité.
+          I have always wanted to create new things, creativity and
+          self-improvement are deeply ingrained in me. Venturing into web
+          development has changed a lot for me, and since then, I try to push my
+          work towards new horizons with every project, always prioritizing
+          quality.
         </p>
         <div className="font-amphora flex w-full justify-center">
           <Link href="/about">En savoir plus</Link>

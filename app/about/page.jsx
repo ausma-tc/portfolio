@@ -6,37 +6,36 @@ const About = () => {
     <main className="mainContent">
       <section className="flex flex-col">
         <div className="flex pb-20">
-          <h1 className="h1 leading-none">À propos</h1>
+          <h1 className="h1 leading-none">About me</h1>
         </div>
         <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-10">
           <div className="wrapper-text max-w-full lg:max-w-[50%]">
             <p>
-              J'ai toujours eu envie de créer de nouvelles choses, la créativité
-              et le dépassement de soi sont quelque chose d’ancré en moi. Me
-              lancer dans le développement web a changé beaucoup de choses, et
-              depuis, j'essaie de pousser mon travail vers de nouveaux horizons
-              à chaque projet, en privilégiant toujours la qualité. Après avoir
-              travaillé 3 ans chez Evisiance, une agence web basé à Lyon, je
-              décide maintenant de me mettre en freelance pour travailler sur de
-              nouveaux projets passionnants entourées de personnes talentueuses.
+              I have always wanted to create new things; creativity and
+              self-improvement are deeply ingrained in me. Venturing into web
+              development has changed a lot for me, and since then, I try to
+              push my work towards new horizons with every project, always
+              prioritizing quality. After working for 3 years at Evisiance, a
+              web agency based in Lyon, I have now decided to go freelance to
+              work on exciting new projects surrounded by talented people.
             </p>
             <p>
-              Pour chaque projet sur lequel je travaille, je porte une attention
-              particulière à l'interaction, aux animations et à la performance
-              de votre site. Cela afin que vos utilisateurs puissent vivre une
-              expérience unique et agréable tout au long de leur visite.
+              For each project I work on, I pay special attention to the
+              interaction, animations, and performance of your site. This is so
+              that your users can have a unique and enjoyable experience
+              throughout their visit.
             </p>
             <p className="mb-10">
-              J’ai hâte de continuer mon aventure à vos côtés, en travaillant
-              sur l’un de vos prochains projets.
+              I am looking forward to continuing my journey alongside you,
+              working on one of your upcoming projects.
             </p>
             <h2 className="h2 pb-5 md:pb-0">Stacks</h2>
             <p className="mb-10">
-              Je travaille généralement sans framework pour les petits projets,
-              me laissant une totale liberté sur l'architecture, un CMS Headless
-              comme Strapi ou Wordpress pour la gestion de contenu, GSAP pour
-              les animations et Three.js pour WebGL. Pour des projets de plus
-              grosse envergure, j'utilise Next.js.
+              I generally work without a framework for smaller projects,
+              allowing me complete freedom over the architecture, a Headless CMS
+              like Strapi or WordPress for content management, GSAP and/or Framer Motion for
+              animations, and Three.js for WebGL. For larger-scale projects, I
+              use Next.js.
             </p>
             <ul className="flex">
               <IconMagnetic>

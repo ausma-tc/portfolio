@@ -13,11 +13,11 @@ const Features = () => {
         <SwiperSlide>
           <div className="flex flex-col justify-between min-w-[100vw] max-w-[100vw] md:min-w-[607px] md:max-w-[607px] min-h-[554px] p-10 border-y border-r">
             <div className="flex flex-col">
-              <h2 className="font-amphora text-4xl pb-7">Intéraction</h2>
+              <h2 className="font-amphora text-4xl pb-7">Interaction</h2>
               <p className="font-switzer text-[18px]">
-                Afin que vos utilisateurs puisse vivre une expérience unique,
-                j’aime prendre du temps à concevoir et imaginer vos animations
-                et interactions de votre projet.
+                To ensure your users have a unique experience, I enjoy taking
+                the time to design and imagine the animations and interactions
+                for your project.
               </p>
             </div>
             <span className="font-amphora text-right text-4xl text-secondary">
@@ -28,11 +28,11 @@ const Features = () => {
         <SwiperSlide>
           <div className="flex flex-col justify-between min-w-[100vw] max-w-[100vw] md:min-w-[607px] md:max-w-[607px] min-h-[554px] p-10 border-y border-r">
             <div className="flex flex-col">
-              <h2 className="font-amphora text-4xl pb-7">Optimisation</h2>
+              <h2 className="font-amphora text-4xl pb-7">Optimization</h2>
               <p className="font-switzer text-[18px]">
-                Je porte une attention particulière à la performance de votre
-                projet dans le but d’obtenir une expérience utilisateur peaufiné
-                et d’améliorer le référencement de celui-ci.
+                I pay special attention to the performance of your project with
+                the goal of achieving a refined user experience and improving
+                its search engine ranking.
               </p>
             </div>
             <span className="font-amphora text-right text-4xl text-secondary">
@@ -43,11 +43,11 @@ const Features = () => {
         <SwiperSlide>
           <div className="flex flex-col justify-between min-w-[100vw] max-w-[100vw] md:min-w-[607px] md:max-w-[607px] min-h-[554px] p-10 border-y">
             <div className="flex flex-col">
-              <h2 className="font-amphora text-4xl pb-7">Travail d’équipe</h2>
+              <h2 className="font-amphora text-4xl pb-7">Teamwork</h2>
               <p className="font-switzer text-[18px]">
-                J’ai l’habitude de collaborer et d’accompagner mes clients en
-                suivant vos envies et besoin tout en vous donnant mon point de
-                vue afin d'obtenir le meilleur pour votre projet.
+                I am accustomed to collaborating and supporting my clients by
+                following your desires and needs while offering my perspective
+                in order to achieve the best for your project.
               </p>
             </div>
             <span className="font-amphora text-right text-4xl text-secondary">
