@@ -17,6 +17,7 @@ export const projectsData = [
       
       <p><strong>Collaboration :</strong> Although most of the work was done individually, I had the chance to collaborate with a back-end developer to solve some specific technical challenges. This synergy between different skills was essential for the success of the project.</p>`,
     image: "/images/asnieres-sur-seine/asnieres-sur-seine-1.svg",
+    color: "#f0f0f6",
     gallery: {
       1: "/images/asnieres-sur-seine/asnieres-sur-seine-1.svg",
       2: "/images/asnieres-sur-seine/asnieres-sur-seine-2.svg",
@@ -44,6 +45,7 @@ export const projectsData = [
           
           <p><strong>Collaboration :</strong> This achievement required close collaboration with the UI/UX team to refine the design and integrate smooth animations that enrich the user experience. The synergy between the different team members, combining technical expertise and design sensibility, was essential for achieving a final result that is both functional and aesthetically pleasing.</p>`,
     image: "/images/futur-en-main/futur-en-main.svg",
+    color: "#8ac8e3",
     gallery: {
       1: "/images/futur-en-main/futur-en-main.svg",
       2: "/images/futur-en-main/futur-en-main-2.svg",
@@ -71,6 +73,7 @@ export const projectsData = [
         
         `,
     image: "/images/excelys-tours/excelys-tours.svg",
+    color: "#2BC0FF",
     gallery: {
       1: "/images/excelys-tours/excelys-tours.svg",
       2: "/images/excelys-tours/excelys-tours-2.svg",
@@ -98,6 +101,7 @@ export const projectsData = [
         
         <p><strong>Collaboration :</strong> Although I primarily worked on front-end development, this achievement was the result of close collaboration with other team members, including back-end developers to integrate new features and designers to align the site's visual appearance with the Neurodis Foundation's brand.</p>`,
     image: "/images/fondation-neurodis/fondation-neurodis-1.svg",
+    color: "#114B63",
     gallery: {
       1: "/images/fondation-neurodis/fondation-neurodis-1.svg",
       2: "/images/fondation-neurodis/fondation-neurodis-2.svg",
@@ -124,6 +128,7 @@ export const projectsData = [
         
         <p><strong>Collaboration :</strong> Although I was responsible for the technical realization of the project, this achievement was the result of close collaboration with the marketing and communication teams of Selectour Bleu Voyages. Their expertise and feedback were invaluable in ensuring that the blog meets user expectations and best reflects the brand.</p>`,
     image: "/images/blog-bleuvoyages/blog-bleuvoyages.svg",
+    color: "#110F52",
     gallery: {
       1: "/images/blog-bleuvoyages/blog-bleuvoyages.svg",
       2: "/images/blog-bleuvoyages/blog-bleuvoyages-2.svg",
